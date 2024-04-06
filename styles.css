@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-weight: 700;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* <!---------------------------------------------------------------- header start -------------------------------------------------------------------> */
+.header {
+  background-color: #9757D7;
+  width: 100%;
+  height: 300px;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 0; /* Remove right margin for list items */
+  margin-bottom: 10px; /* Add bottom margin for list items */
+}
+
+.navbar a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-part {
+  padding: 20px;
+}
+
+.brand-name {
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25%;
+  
+}
+
+.logo-img  {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.signin_btn{
+  border: 0px;
+  color: white;
+}
+
+.signin-part {
+  padding: 20px;
+}
+
+.regbtn {
+  color: white;
+  border: 1px solid white;
+}
+
+.btn:hover {
+  border-color: #9757D7;
+  background-color: #9757D7;
+}
+
+
+/* <!---------------------------------------------------------------- header end -------------------------------------------------------------------> */
+
+
+
+
+
+
+/* <!----------------------------------------------------------- explore-part-start ----------------------------------------------------------------------------> */
+
+.explore {
+  background-color: white;
+}
+
+.explore_inner {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  top: -150px;
+  border-radius: 20px;
+  height: 450px;
+
+}
+
+.left-explore {
+  height: 350px;
+}
+
+.quote {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.minutes{
+  color: #9757D7;
+}
+
+.form_explore {
+  width: 75%;
+}
+
+.explore_inner {
+  padding: 5%;
+}
+
+.explore_search {
+  margin-bottom: 50px;
+  height: 30px;
+}
+
+.exploreBtn {
+  background-color: #FB9F3E;
+  color: white;
+  border: none;
+  width: 20%;
+}
+
+.explore_stats {
+  position: absolute;
+  margin-bottom: 50px;
+}
+
+
+.first {
+  position: inherit;
+  top: 20px;
+  /* background-color: aliceblue; */
+  width: 162px;
+}
+
+.second {
+  position: relative;
+  top: 20px;
+  left: 162px;
+  width: 162px;
+  /* background-color: #9757D7; */
+}
+
+.third {
+  position: inherit;
+  top: 20px;
+  left: 324px;
+  width: 162px;
+  /* background-color: beige; */
+}
+
+.fourth {
+  position: inherit;
+  top: 20px;
+  left: 486px;
+  width: 162px;
+  /* background-color: aqua; */
+}
+
+.explore_span {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.delivery-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.scooter_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards {
+    /* position: inherit;
+    top: 150px; */
+  /* background-color: lightcyan; */
+}
+
+.card_words {
+
+}
+
+.common_card {
+  background-color: #FFEED1;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.card_icon {
+  border: 1 px solid white;
+  background-color: white;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px 30px 10px;
+}
+
+.card_icon i {
+  color: #FB9F3E;
+  font-size: 30px;
+  /* margin: 0 auto; */
+}
+
+.card_desc {
+  margin-left: 13px;
+}
+
+.card_text{
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.card_para {
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+
+/* .first_card {
+  background-color: #FFEED1;
+}
+
+.second_card {
+  background-color: #FFEED1;
+}
+
+.third_card {
+  background-color: #FFEED1;
+}
+
+.fourth_card {
+  background-color: #FFEED1;
+} */
+
+.cooking {
+  margin-top: 100px;
+}
+
+.cooking_pic {
+  width: 100%;
+}
+
+.cooking_header {
+  font-size: 50px;
+  font-weight: 800;
+  padding: 10px 0;
+}
+
+.cooking_para {
+  padding: 50px 0;
+}
+
+/* .learn_more {
+  background-color: #FFEED1;
+  border: 1px solid #FFEED1;
+  
+} */
+
+/* <!------------------------------------------------------ explore-part-end ---------------------------------------------------------------------------> */
+
+
+
+
+/* <!----------------------------------------------------------------- popular-dishes-part-start -----------------------------------------------------------------> */
+
+.popular_dishes {
+  background-color: rgba(41, 176, 103, 0.09);
+}
+
+.popular_desc {
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 50px 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular_para {
+  width: 40%;
+  font-size: 17px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+}
+
+.card {
+  
+}
+
+.img-section {
+  width: 100%;
+  
+}
+
+.popular_img1 {
+  width: 100%;
+  object-fit: cover;
+}
+
+.pop {
+  background-color: white;
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+
+.pop-image {
+  order: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    /* padding: 20px; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.popimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pop_desc {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+}
+
+.price {
+  margin: 22px 15px;
+  width: 90%;
+  align-items: center;
+}
+
+.dollar {
+  padding-left: 20%;
+}
+
+.plus_icon {
+  /* padding-left: 20%; */
+}
+
+.plus {
+  color: #FB9F3E;
+  padding-left: 60%;
+}
+
+.pop:hover {
+  background-color: #FB9F3E;
+  transition: 0.5s;
+  transform: scale(1.05);
+  color: white;
+}
+
+.pop:hover .plus{
+  color: white;
+}
+
+.menuBtn{
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  padding: 15px;
+}
+/* /* <!----------------------------------------------------------------- popular-dishes-part-end ------------------------------------------------------------->  */
+
+
+
+/* /* <!----------------------------------------------------------------- app-part-start ---------------------------------------------------------------------->  */
+
+
+.app {
+  /* border: 1px solid black; */
+  margin: 10px;
+  border-radius: 6px;
+  width: auto;  
+  background-color: #FB9F3E;
+  padding: 15px 30px;
+}
+
+.app:hover {
+  background-color: #9757D7;
+  color: black;
+}
+
+.app_ref {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+
+/* 
+/* <!----------------------------------------------------------------- app-part-end ----------------------------------------------------------------------> */
