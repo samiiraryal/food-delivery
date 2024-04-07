@@ -5,13 +5,25 @@
 }
 
 p {
-  font-weight: 700;
+  font-weight: 400;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px 0;
 }
 
+h5 {
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+h6 {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
 
 
 /* <!---------------------------------------------------------------- header start -------------------------------------------------------------------> */
@@ -20,6 +32,10 @@ p {
   width: 100%;
   height: 300px;
   
+}
+
+.navbar-part {
+  /* padding-top: 20px; */
 }
 
 .navbar {
@@ -35,8 +51,8 @@ p {
 }
 
 .navbar li {
-  margin-right: 0; /* Remove right margin for list items */
-  margin-bottom: 10px; /* Add bottom margin for list items */
+  margin-right: 0; 
+  margin-bottom: 10px; 
 }
 
 .navbar a {
@@ -71,8 +87,10 @@ p {
   color: white;
 }
 
+.signin_btn:hover {}
+
 .signin-part {
-  padding: 20px;
+  padding: 30px 0 0 56px;
 }
 
 .regbtn {
@@ -80,9 +98,18 @@ p {
   border: 1px solid white;
 }
 
+.regbtn:hover {
+  background-color: #FB9F3E;
+  border: none;
+}
+
 .btn:hover {
   border-color: #9757D7;
   background-color: #9757D7;
+}
+
+.cont {
+  text-align: left;
 }
 
 
@@ -197,9 +224,7 @@ p {
 }
 
 .cards {
-    /* position: inherit;
-    top: 150px; */
-  /* background-color: lightcyan; */
+    padding-top: 90px;
 }
 
 .card_words {
@@ -294,6 +319,8 @@ p {
 
 .popular_dishes {
   background-color: rgba(41, 176, 103, 0.09);
+  padding: 2px;
+  border-radius: 0 0 0 250px;
 }
 
 .popular_desc {
@@ -422,3 +449,186 @@ p {
 
 /* 
 /* <!----------------------------------------------------------------- app-part-end ----------------------------------------------------------------------> */
+
+.customer_part {
+  background-color: antiquewhite;
+  margin-top: 250px;
+  height: 1000px;
+}
+
+.client_heading {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.client_desc {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* <---------------------------------------------------------slider-part-start---------------------------------------------> */
+/* Carousel Styles */
+.owl-carousel {
+  position: relative;
+  margin: 0 auto;
+}
+
+.owl-carousel .owl-stage-outer {
+  overflow: hidden;
+}
+
+.owl-carousel .owl-item {
+  transition: transform 0.3s ease;
+  padding: 0 10px; 
+  text-align: center;
+  flex: 0 0 auto; 
+}
+
+.owl-carousel .owl-item.center {
+  transform: scale(1.2);
+}
+
+.owl-carousel .owl-item {
+  opacity: 0.5;
+}
+
+.owl-carousel .owl-item.active {
+  opacity: 1;
+}
+
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  font-size: 36px !important;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+  color: #666;
+}
+
+/* Slide Item Styles */
+.slider_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.slider_img {
+  width: 150px; 
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+}
+
+.slider_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.designation,
+.stars {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.stars {
+  font-size: 24px;
+  color: #ffc107;
+}
+
+
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+/* <-----------------------------------------------------------------------------slider-part-end-----------------------------------------------------------------> */
+
+
+
+/* <!-------------------------------------------------------------------- footer-section-start----------------------------------------------------------------------> */
+
+
+
+
+.footer_section {
+  background-color: #9757D7;
+  height: 1000px;
+  position: relative;
+  top: -600px;
+  padding-top: 450px;
+  z-index: 0;
+  color: white;
+}
+
+.footer_details {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.one {
+  /* background-color: aliceblue; */
+  margin: 10px;
+}
+
+.food_img {
+  width: 50px;
+  height: 50px;
+}
+
+
+.socials {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.quick_links {
+  text-align: center;
+}
+
+.subBtn {
+  background-color: #FB9F3E;
+  width: 44%;
+  border: none;
+}
+
+.subBtn:hover {
+  border: 1px solid white;
+}
+
+.foot_desc {
+  color: white;
+}
+
+/*<!-------------------------------------------------------------------- footer-section-end----------------------------------------------------------------------> */
